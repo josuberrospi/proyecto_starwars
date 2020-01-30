@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.seccion {
+    height: 800px;
+    background-image: url(/imagenes/background-image-sw.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.caja-centro {
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    top: 100px;
+    position: relative;
+}
+
+.columna-pelis {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.contenido-articulo {
+    width: 330px;
+    /*padding-top: 50px;*/
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.color-personajes {
+    background-color: red;
+    color: white;
+}
+
+.color-casting {
+    background-color: blue;
+    color: white;
+}
+
+.color-rodaje {
+    background-color: green;
+    color: white;
+}
+
+.fondo-arriba {
+    background-image: url(/imagenes/the-last-jedi-fondo.jpg);
+    height: 50px;
+    width: 900px;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+    opacity: 0.8;
+}
+
+.texto-blanco {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+.borde-azul {
+    border-right: 2px dotted blue;
+}
+
+.borde-rojo {
+    border-right: 2px dotted red;
+}
